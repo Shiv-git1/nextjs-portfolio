@@ -59,7 +59,12 @@ const EmailSection = () => {
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           I'm currently looking for new oppurtunities, my inbox is always open.
           Please send your messages using this form, or send me an email on
-          "shivshaktibharti7@gmail.com" or contact me on "+91-9340592618".
+          &nbsp;
+          <span className="text-secondary-500">
+            shivshaktibharti7@gmail.com
+          </span>{" "}
+          or contact me on{" "}
+          <span className="text-secondary-500">+91-9340592618</span>.
         </p>
 
         <div className="socials flex flex-row gap-2">
